@@ -1,0 +1,1 @@
+gdalwarp -r near -order 1 -co COMPRESS=NONE  "TMP\%1" "OUTPUT\%1"
