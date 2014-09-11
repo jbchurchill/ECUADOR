@@ -1,0 +1,6 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>tmp01c2</Description>
+    <NoDataValue>2.56000000000000E+002</NoDataValue>
+  </PAMRasterBand>
+</PAMDataset>
