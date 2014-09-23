@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20140923</CreaDate><CreaTime>12561400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20140923" Time="125614">RasterCalculator Con(IsNull("CITI03F5"), "CITI03B", "CITI03F5") C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI04B</Process></lineage></DataProperties></Esri></metadata>

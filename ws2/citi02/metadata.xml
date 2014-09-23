@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20140923</CreaDate><CreaTime>12305400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20140923" Time="123054">RasterCalculator Con("nEc_01[06]_S_cry_cin_200.tiff" &lt; 255, Con("mask01" == 1, 1, 0), 0) C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI02</Process></lineage></DataProperties></Esri></metadata>
