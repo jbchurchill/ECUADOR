@@ -1,7 +1,7 @@
 import arcpy
 from arcpy.sa import *
 arcpy.CheckOutExtension("spatial")
-outws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws4"
+outws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws3"
 inws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\GEOREF\OUTPUT_655"
 theMask = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask01"
 arcpy.env.workspace = inws
@@ -21,7 +21,7 @@ try:
       FMresult = FocalStatistics(ConResult, neighborhood, "MAJORITY", "")
       # Con (in_conditional_raster, in_true_raster_or_constant, {in_false_raster_or_constant}, {where_clause})
       ConResult2 = Con(IsNull(FMresult), ConResult, FMresult)
-      if (x == 4):
+      if (x == 3):
         ConResult2.save(outws + "\\" + outCon)
 
 except:
