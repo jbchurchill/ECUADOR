@@ -1,9 +1,10 @@
 import arcpy
 from arcpy.sa import *
 arcpy.CheckOutExtension("spatial")
-outws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws3"
+outws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws4"
 inws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\GEOREF\OUTPUT_655"
-theMask = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask01"
+theMask = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask02"
+# was mask01 in ws3
 arcpy.env.workspace = inws
 
 
