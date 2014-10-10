@@ -6,6 +6,9 @@ inws = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\GEOREF\OUTPUT_655"
 theMask = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask03"
 # was mask01 in ws3
 arcpy.env.workspace = inws
+arcpy.env.extent = theMask
+arcpy.env.cellSize = theMask
+
 
 
 try:

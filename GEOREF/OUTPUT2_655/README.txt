@@ -1,0 +1,1 @@
+This is output from the second set of batch files (attempt 2)

@@ -1,0 +1,2 @@
+gdal_translate -of GTiff -gcp 4 366 498353 9.75475e+06 -gcp 586 167 1.13853e+06 9.99319e+06 -gcp 239 6 747172 1.01571e+07 -gcp 287 507 818043 9.6109e+06 -gcp 68 570 572611 9.5335e+06 -gcp 19 256 508386 9.87613e+06 "C:/Users/jchurchill/TMP_WORK/TMP_BIRDSEYE/ECUADOR/GEOREF/INPUT_655/tita.tiff" "C:/Users/JCHURC~1/AppData/Local/Temp/tita.tiff"
+gdalwarp -r near -order 1 -co COMPRESS=NONE  "C:/Users/JCHURC~1/AppData/Local/Temp/tita.tiff" "C:/Users/jchurchill/TMP_WORK/TMP_BIRDSEYE/ECUADOR/GEOREF/TMP/tita_modified.tif"
