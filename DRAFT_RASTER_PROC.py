@@ -8,6 +8,7 @@ theMask = r"C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask03"
 arcpy.env.workspace = inws
 arcpy.env.extent = theMask
 arcpy.env.cellSize = theMask
+arcpy.env.snapRaster = theMask
 
 
 
