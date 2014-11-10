@@ -397,4 +397,4 @@ SET /a y3b=%YSHIFT%+%y3%
 SET /a y4b=%YSHIFT%+%y4%
 SET /a y5b=%YSHIFT%+%y5%
 SET /a y6b=%YSHIFT%+%y6%
-gdal_translate -of GTiff -gcp %x1b% %y1b% 498353 9.75475e+06 -gcp %x2b% %y2b% 1.13853e+06 9.99319e+06 -gcp %x3b% %y3b% 747172 1.01571e+07 -gcp %x4b% %y4b% 818043 9.6109e+06 -gcp %x5b% %y5b% 572611 9.5335e+06 -gcp %x6b% %y6b% 508386 9.87613e+06 "SHIFTED_655\%1" "TMP\%1"
+gdal_translate -of GTiff -gcp %x1b% %y1b% 498353 9.75475e+06 -gcp %x2b% %y2b% 1.13853e+06 9.99319e+06 -gcp %x3b% %y3b% 747172 1.01571e+07 -gcp %x4b% %y4b% 818043 9.6109e+06 -gcp %x5b% %y5b% 572611 9.5335e+06 -gcp %x6b% %y6b% 508386 9.87613e+06 "INPUT_NEW\%1" "TMP\%1"
