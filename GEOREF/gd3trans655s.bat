@@ -12,9 +12,6 @@ SET y5=570
 SET y6=256
 SET XSHIFT=0
 SET YSHIFT=0
-IF %1 == frma.tiff (
-SET XSHIFT=83
-)
 IF %1 == N_01_04.tiff (
 SET YSHIFT=1
 )
@@ -141,54 +138,252 @@ SET XSHIFT=6
 IF %1 == N_30_33.tiff (
 SET XSHIFT=167
 )
-REM PICK UP HERE
-REM PICK UP HERE
-REM PICK UP HERE
-REM PICK UP HERE
-REM PICK UP HERE
-REM PICK UP HERE
-REM PICK UP HERE
-IF %1 == ocma.tiff (
-SET XSHIFT=50
+IF %1 == N_31_02.tiff (
+SET YSHIFT=-1
 )
-IF %1 == ocme.tiff (
-SET XSHIFT=166
+IF %1 == N_32_01.tiff (
+SET XSHIFT=6
 )
-IF %1 == ocmi.tiff (
-SET XSHIFT=166
+IF %1 == N_35_04.tiff (
+SET YSHIFT=-1
 )
-IF %1 == ococ.tiff (
-SET XSHIFT=172
+IF %1 == N_35_05.tiff (
+SET YSHIFT=-1
 )
-IF %1 == octe.tiff (
+IF %1 == N_36_01.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_36_03.tiff (
 SET XSHIFT=167
 )
-IF %1 == pema.tiff (
-SET XSHIFT=67
-)
-IF %1 == phae.tiff (
+IF %1 == N_36_04.tiff (
 SET XSHIFT=167
 )
-IF %1 == prae.tiff (
-SET XSHIFT=94
+IF %1 == N_36_05.tiff (
+SET XSHIFT=12
 )
-IF %1 == prpa.tiff (
+IF %1 == N_37_01a.tiff (
+SET XSHIFT=22
+)
+IF %1 == N_37_02.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_37_03.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_37_07.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_37_08.tiff (
+SET XSHIFT=5
+)
+IF %1 == N_37_09.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_37_10.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_37_11.tiff (
+SET XSHIFT=173
+)
+IF %1 == N_37_19.tiff (
 SET XSHIFT=167
 )
-IF %1 == pucr.tiff (
+IF %1 == N_37_12.tiff (
 SET XSHIFT=167
 )
-IF %1 == pugr.tiff (
-SET XSHIFT=167
+IF %1 == N_37_15.tiff (
+SET XSHIFT=6
 )
-IF %1 == pulh.tiff (
-SET XSHIFT=16
+IF %1 == N_37_16.tiff (
+SET XSHIFT=6
 )
-IF %1 == sone.tiff (
-SET XSHIFT=78
+IF %1 == N_37_27.tiff (
+SET XSHIFT=6
 )
-IF %1 == sugr.tiff (
-SET XSHIFT=89
+IF %1 == N_37_23.tiff (
+SET XSHIFT=17
+)
+IF %1 == N_37_24.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_37_26.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_38_01.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_39_14.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_41_03.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_41_04.tiff (
+SET XSHIFT=-3
+)
+IF %1 == N_41_07.tiff (
+SET XSHIFT=-3
+)
+IF %1 == N_41_09.tiff (
+SET XSHIFT=-1
+SET YSHIFT=-1
+)
+IF %1 == N_41_11.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_41_12.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_41_16.tiff (
+SET XSHIFT=-3
+SET YSHIFT=6
+)
+IF %1 == N_42_01.tiff (
+SET YSHIFT=11
+)
+IF %1 == N_44_07.tiff (
+SET XSHIFT=-3
+)
+IF %1 == N_44_17c.tiff (
+SET XSHIFT=2
+)
+IF %1 == N_47_04.tiff (
+SET YSHIFT=1
+)
+IF %1 == N_47_06.tiff (
+SET XSHIFT=2
+)
+IF %1 == N_47_08.tiff (
+SET XSHIFT=795
+SET YSHIFT=150
+)
+IF %1 == N_47_16.tiff (
+SET XSHIFT=2
+SET YSHIFT=-1
+)
+IF %1 == N_49_031.tiff (
+SET YSHIFT=1
+)
+IF %1 == N_49_054c2.tiff (
+SET XSHIFT=45
+)
+IF %1 == N_49_056c.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_49_082.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_49_094.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_49_126.tiff (
+SET XSHIFT=728
+SET YSHIFT=656
+)
+IF %1 == N_49_128.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_50_11.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_50_12.tiff (
+SET YSHIFT=11
+)
+IF %1 == N_54_08.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_54_10.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_55_07.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_56_08.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_57_17.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_58_12.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_58_30.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_59_07.tiff (
+SET XSHIFT=2
+SET YSHIFT=-3
+)
+IF %1 == N_60_40.tiff (
+SET YSHIFT=11
+)
+IF %1 == N_61_11.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_64_14.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_64_17.tiff (
+SET XSHIFT=1
+SET YSHIFT=6
+)
+IF %1 == N_64_023.tiff (
+SET YSHIFT=14
+)
+IF %1 == N_64_041.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_64_042.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_64_103.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_64_111.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_64_122.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_64_142.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_64_185.tiff (
+SET YSHIFT=39
+)
+IF %1 == N_64_186.tiff (
+SET XSHIFT=461
+)
+IF %1 == N_67_05.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_68_04.tiff (
+SET XSHIFT=11
+)
+IF %1 == N_70_01.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_72_05.tiff (
+SET XSHIFT=323
+)
+IF %1 == N_73_17.tiff (
+SET XSHIFT=17
+)
+IF %1 == N_77_034.tiff (
+SET XSHIFT=1
+)
+IF %1 == N_79_15.tiff (
+SET XSHIFT=17
+)
+IF %1 == N_79_53.tiff (
+SET XSHIFT=6
+)
+IF %1 == N_80_03.tiff (
+SET YSHIFT=6
+)
+IF %1 == N_80_29.tiff (
+SET XSHIFT=17
 )
 SET /a x1b=%XSHIFT%+%x1%
 SET /a x2b=%XSHIFT%+%x2%
