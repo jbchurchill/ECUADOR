@@ -8,3 +8,4 @@
 201409231257   0     0     0jchurchill C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI04F5 = FOCALMAJORITY(C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI04B,  Rectangle, 5, 5, DATA)
 201409231303   0     0     0jchurchill C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI05F5 = FOCALMAJORITY(C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\CITI05B,  Rectangle, 5, 5, DATA)
 201410141552   0     5     0jchurchill C:\Users\JCHURC~1\TMP_WORK\TMP_BI~1\ECUADOR\ws2\mask03_points.shp = GRIDPOINTSHAPE(C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECU
+201411191210   0     1     0jchurchill C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\tmp05 = CON(C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\stars, ( 0), C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\mask04)

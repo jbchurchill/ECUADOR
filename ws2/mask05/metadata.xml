@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20141119</CreaDate><CreaTime>12270100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20141119" Time="122701">RasterCalculator Con("mask04" == 1, Con(IsNull("stars"), 1, 0), "mask04") C:\Users\jchurchill\TMP_WORK\TMP_BIRDSEYE\ECUADOR\ws2\tmp05d</Process></lineage></DataProperties></Esri></metadata>
